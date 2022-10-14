@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #353941;
+    
+}
+
+
+.signup {
+    padding: 7px;
+}
+
+.d-flex {
+    padding: 7px;
+}
+
+
+
+
+.card img {
+    position: relative;
+    height: 290px;
+    width: 450px;
+    
+    
+}
+
+.card span {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.card-text {
+    padding-left: 20px;
+   
+}
+
+.card-title {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.continue {
+    padding-left: 20px;
+}
+
+.continue a {
+    text-decoration: none;
+    
+}
+
+
+.date {
+    padding-left: 20px;
+}
+
+.col {
+    padding: 2%;
+
+
+}
+
+
+    .footer a {
+        text-decoration: none;
+    }
+
+   

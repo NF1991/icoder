@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<body>
+  <!-- This is the navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">iCoder</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-secondary" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Topics
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <!-- Login button -->
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#login">
+          Login
+        </button>
+        <!-- Login modal -->
+        <div class="modal fade" id="login" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Login Form -->
+              <form action="">
+                <div class="modal-header">
+                  <h5 class="modal-title">Login to iCoder</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="Username">Username<span class="text-danger">*</span></label>
+                    <input type="text" name="username" class="form-control" id="Username" placeholder="Enter Username">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="Password">Password<span class="text-danger">*</span></label>
+                    <input type="password" name="password" class="form-control" id="Password"
+                      placeholder="Enter Password">
+                  </div>
+                  <div class="mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="remember" required>
+                    <label class="form-check-label" for="remember">Remember Me</label>
+                    <a href="#" class="float-end">Forgot Password</a>
+                    <div><button type="button" class="btn btn-primary">Login</button></div>
+                  </div>
+                </div>
+                <div class="modal-footer pt-4">
+                  <button type="button" class="btn btn-secondary">Close</button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Sign up button -->
+        <div class="signup">
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signup">
+            Sign Up
+          </button>
+        </div>
+        <!-- Sign up modal -->
+        <div class="modal fade" id="signup" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Sign Up Form -->
+              <form action="">
+                <div class="modal-header">
+                  <h5 class="modal-title">Get an iCoder account</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="Username">Email Address<span class="text-danger">*</span></label>
+                    <input type="text" name="email" class="form-control" id="email" placeholder="Enter Email">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="Password">Password<span class="text-danger">*</span></label>
+                    <input type="password" name="password" class="form-control" id="Password"
+                      placeholder="Enter Password">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Password">Confirm Password<span class="text-danger">*</span></label>
+                    <input type="password" name="password" class="form-control" id="PasswordRepeat"
+                      placeholder="Confirm Password">
+                  </div>
+                  <div class="mb-3">
+                    <div><button type="button" class="btn btn-primary">Create Account</button></div>
+                  </div>
+                </div>
+                <div class="modal-footer pt-4">
+                  <button type="button" class="btn btn-secondary">Close</button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </nav>
+  <!-- This is the form -->
+  <form class="contact">
+    <h1>Contact Us</h1><br>
+    <div class="row mb-4">
+      <p>Email</p>
+      <label for="inputEmail3" class="col-sm-7 col-form-label"></label>
+      <div class="col-sm-15">
+        <input type="email" class="form-control" id="inputEmail3">
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="form-floating">
+        <p>Select Your Query</p>
+        <select class="form-select" id="floatingSelect" aria-label="">
+          <option selected>Web</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+
+      </div>
+    </div>
+
+    <!-- These are the checkboxes -->
+    <div class="checkbox1">
+      <div class="row mb-3">
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Are you a member?
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="checkbox2">
+      <div class="row mb-3">
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Are you a professor?
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="checkbox3">
+      <div class="row mb-5">
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Are you a coder?
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="form-floating">
+        <p>Tell us about yourself</p>
+        <textarea class="form-control" placeholder="Tell us about yourself" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2"></label>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="form-floating">
+        <p>Elaborate on your concerns</p>
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2"></label>
+      </div>
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+  <!-- This is the footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-dark">&copy; 2020-2021 iCoder, Inc.
+        <a href="#">Privacy</a>
+        &#183;
+        <a href="#">Terms</a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>

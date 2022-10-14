@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #353941;
+    
+}
+
+.navbar a {
+    color: white;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.dropdown a {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.header1 {
+    padding: 10%;
+    color: #97989A;
+}
+
+.header1 h1 strong {
+    color: #484848;
+}
+
+.header2 {
+    padding: 10%;
+    color: #97989A;
+}
+
+.header2 h1 strong {
+    color: #484848;
+}
+
+.container2 {
+    padding-left: 7%;
+}
+.footer a {
+    text-decoration: none;
+}
+
+.signup {
+    padding: 7px;
+}
+
+.d-flex {
+    padding: 7px;
+}

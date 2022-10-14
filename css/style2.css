@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #353941;
+    
+}
+
+.navbar a {
+    color: white;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.dropdown a {
+    color: black;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2% 10%;
+    
+
+}
+
+.signup {
+    padding: 7px;
+}
+
+.d-flex {
+    padding: 7px;
+}
+
+
+
+.footer {
+    padding-left: 7%;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
